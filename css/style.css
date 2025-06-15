@@ -4,6 +4,14 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ .js-fullheight {
+    height: 100vh;
+    min-height: 100vh;
+    overflow: hidden; /* <- try changing this to 'visible' */
+    position: relative;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
